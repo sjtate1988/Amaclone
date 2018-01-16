@@ -39,6 +39,7 @@ $con = mysqli_connect('localhost', user_name, password, databse_name or die(mysq
 
 In order to make this project work you need to set up your own MySQL Database:
 Tables:
+
         users:        user_id         PK AI         int(11)
                       firstname                     varchar(32)
                       lastname                      varchar(64)
