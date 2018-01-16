@@ -1,4 +1,4 @@
-Amaclone Project - A clone of Amazon
+# Amaclone Project - A clone of Amazon
 
 This version can be found live at https://amaclone.drsjtate.uk
 
@@ -25,19 +25,20 @@ You need to create two files to have the full functionality:
 - reso/base.php
 
 mailgun.php requires the following:
-<?php
+`<?php
 $apiKey set to your own mailgun account
 $curlURL set to your own curlURL
-?>
+?>`
 
 reso/base.php requires:
 
-<?php
+`<?php
 session_start();
 $con = mysqli_connect('localhost', user_name, password, databse_name or die(mysqli_connect_errno());
-?>
+?>`
 
 In order to make this project work you need to set up your own MySQL Database:
+
 Tables:
 
         users:        user_id         PK AI         int(11)
